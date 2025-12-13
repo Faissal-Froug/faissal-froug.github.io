@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faissal's Business Analyst Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Roboto', sans-serif; margin: 0; padding: 0; background: #ffffff; color: #333; line-height: 1.8; }
+        header { background: linear-gradient(135deg, #f0f0f0 0%, #d0d0d0 100%); color: #333; text-align: center; padding: 60px 20px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        nav { text-align: center; margin: 30px; background: #e0e0e0; padding: 15px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        nav a { margin: 0 25px; text-decoration: none; color: #555; font-weight: 700; transition: color 0.3s; }
+        nav a:hover { color: #000; }
+        section { max-width: 1100px; margin: 30px auto; padding: 30px; background: #f8f8f8; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); border: 1px solid #ddd; }
+        .skills { display: flex; flex-wrap: wrap; justify-content: space-around; }
+        .skill {
+            background: #f6f7f8;
+            padding: 20px 15px;
+            margin: 15px;
+            border-radius: 10px;
+            text-align: center;
+            width: 180px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+            border: 1px solid #e0e0e0;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+            color: #333;
+            font-size: 14px;
+            line-height: 1.4;
+            position: relative;
+        }
+        .skill strong {
+            font-size: 16px;
+            font-weight: bold;
+            color: #000;
+            display: block;
+            margin-bottom: 8px;
+        }
+        .skill:hover {
+            background-color: #f8f9fa;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+        }
+        .projects { display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 25px; }
+        .project { background: linear-gradient(135deg, #f0f0f0 0%, #d0d0d0 100%); padding: 20px; border-radius: 10px; box-shadow: 0 3px 10px rgba(0,0,0,0.1); transition: box-shadow 0.3s; color: #333; }
+        .project:hover { box-shadow: 0 5px 20px rgba(0,0,0,0.2); }
+        .slideshow { position: relative; width: 100%; height: 200px; overflow: hidden; border-radius: 8px; }
+        .slideshow img { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0; transition: opacity 1s ease-in-out; }
+        .slideshow img:first-child { opacity: 1; }
+        .slideshow img:nth-child(1) { animation: fade 15s infinite; }
+        .slideshow img:nth-child(2) { animation: fade 15s infinite 3s; }
+        .slideshow img:nth-child(3) { animation: fade 15s infinite 6s; }
+        .slideshow img:nth-child(4) { animation: fade 15s infinite 9s; }
+        .slideshow img:nth-child(5) { animation: fade 15s infinite 12s; }
+        @keyframes fade { 0%, 20% { opacity: 1; } 25%, 100% { opacity: 0; } }
+        footer { text-align: center; padding: 25px; background: linear-gradient(135deg, #f0f0f0 0%, #d0d0d0 100%); color: #555; box-shadow: 0 -4px 10px rgba(0,0,0,0.1); }
+        h1, h2 { margin-bottom: 20px; color: #333; }
+        p { margin-bottom: 15px; color: #555; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Faissal Froug : Contract Business Analyst – CRM, Integrations & Data</h1>
+        <p>I help organisations deliver CRM improvements and system integrations by translating business needs into clear requirements, workable solutions and measurable outcomes.</p>
+    </header>
+   
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#cv">Resume</a>
+        <a href="#contact">Contact</a>
+    </nav>
+   
+    <section id="about">
+        <h2>About</h2>
+        <p>
+        Contract Business Analyst with 9+ years of experience delivering IT and CRM projects across complex environments.
+        I work at the intersection of business, systems and data, helping organisations translate operational needs into clear requirements and workable solutions.
+        </p>
+
+        <p>
+        My background covers CRM, ERP and HRIS projects, where I have led requirements workshops, process mapping, functional specifications, UAT and go-live support, working closely with stakeholders, developers and product teams.
+        I have a strong focus on system integrations, data quality and reporting, ensuring that solutions are not only delivered but actually adopted and measurable.
+        </p>
+
+        <p>
+        I am currently available for UK-based contract Business Analyst roles (remote or hybrid), where I can bring a pragmatic, hands-on and delivery-oriented approach.
+        </p>
+    </section>
+   
+	<section id="skills">
+		<h2>Key Skills</h2>
+		<div class="skills">
+			<div class="skill">
+				<strong>🧩 Business Analysis</strong><br>
+				Requirements workshops, user stories, process mapping, functional specifications
+			</div>
+			<div class="skill">
+				<strong>🔄 CRM & Integrations</strong><br>
+				CRM systems, Salesforce environments, APIs, data flows, stakeholders
+			</div>
+			<div class="skill">
+				<strong>📊 Data & Reporting</strong><br>
+				SQL, reporting, dashboards, data quality, insights
+			</div>
+			<div class="skill">
+				<strong>🚀 Delivery & Agile</strong><br>
+				Agile/Scrum, UAT, go-live, change support
+			</div>
+		</div>
+	</section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects">
+			<div class="project">
+			  <h3>Salesforce – Sales Pipeline <br>Manager</h3>
+
+			  <p><strong>Context:</strong> Built a Salesforce mini-application to manage a full sales pipeline from lead to close.</p>
+			  <p>Outcome: Improved pipeline visibility and reduced manual tracking for sales teams.</p>
+			  <p><strong>What I delivered:</strong></p>
+			  <ul>
+				<li>Structured data model, validation rules and page layouts.</li>
+				<li>Automation (Flows) to standardise key pipeline steps.</li>
+				<li>Reports & dashboards to provide visibility to stakeholders.</li>
+			  </ul>
+
+			  <p><strong>Tools:</strong> Salesforce (Admin, Flows), Reporting & Dashboards</p><br><br>
+
+			  <img src="Faissal FROUG.png"
+				   alt="Salesforce sales pipeline dashboard"
+				   style="width:100%; border-radius:6px; margin:10px 0;">
+				   
+			  <p><em>Detailed walkthrough and documentation available on request.</em></p>
+			</div>
+
+			
+			<div class="project">
+			  <h3>Salesforce – SLA Automation <br>(Case Management)</h3>
+			     
+			  <p><strong>Context:</strong> Designed and implemented an SLA-driven case process with escalation logic.</p>
+			  <p>Outcome: Clear SLA monitoring and proactive escalation, reducing missed deadlines.</p>
+			  <p><strong>What I delivered:</strong></p>
+			  <ul>
+				<li>SLA tracking based on priority and working hours (Business Hours).</li>
+				<li>Escalation rules and automated notifications to ensure deadlines are met.</li>
+				<li>Dashboards to monitor SLA compliance and operational load.</li>
+			  </ul>
+			  <p><strong>Tools:</strong> Salesforce (Flows / Automation), Reports & Dashboards</p>
+			  <img src="Faissal FROUG (1).png"
+				   alt="Salesforce sales pipeline dashboard"
+				   style="width:100%; border-radius:6px; margin:10px 0;">
+				
+			  <p><em>Detailed walkthrough and documentation available on request.</em></p>
+
+			</div>
+			
+			<div class="project">
+			  <h3>CRM Delivery – Data Quality, Reporting & API Integrations</h3>
+			  <p><strong>Context:</strong> Delivered CRM improvements with a strong focus on data quality, reporting and system interfaces.</p>
+			  <p>Outcome: Improved data reliability and reporting confidence across business teams.</p>
+			  <p><strong>What I did:</strong></p>
+			  <ul>
+				<li>Requirements workshops and functional specifications with business stakeholders.</li>
+				<li>SQL-based analysis to validate data quality and support reporting needs.</li>
+				<li>Coordination with technical teams for API / interface topics and delivery follow-up.</li>
+			  </ul>
+			  <p><strong>Tools:</strong> SQL, CRM reporting, APIs (REST), workshops & UAT</p>
+			  <p><em>Illustrative materials and sample deliverables available on request.</em></p>
+
+			</div>
+            <!-- Add more projects here -->
+        </div>
+    </section>
+   
+    <section id="cv">
+        <h2>Curriculum Vitae</h2>
+        <p>View or download my detailed CV: <a href="CV_Faissal_FROUG_BA-English.pdf" target="_blank" style="color: #007bff;">Download CV (PDF) – Updated Dec 2025</a></p>
+    </section>
+   
+	<section id="contact">
+	  <h2>Professional Contact</h2>
+	  <p>📧 Email: froug.faissal@gmail.com</p>
+	  <p>🔗 LinkedIn: <a href="https://www.linkedin.com/in/faissal-froug/" style="color: #007bff;">linkedin.com/in/faissal-froug/</a></p>
+	  <p>📍 Location: France (GMT+1) – Available for UK remote / occasional travel</p>
+	</section>
+
+   
+    <footer>
+		<p>&copy; 2025 Faissal Froug – Business Analyst Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
